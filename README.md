@@ -1,5 +1,5 @@
 # :pencil2:Coding-Test-Study
-Programmers 코딩 테스트 문제에서 level 0-3 단계에 해당하는 문제풀이를 진행하기 위한 코딩 테스트 스터디 Repository 입니다.
+Programmers 코딩 테스트 문제에서 [level 0-3 단계](https://school.programmers.co.kr/learn/challenges?order=recent&languages=python3&page=1&levels=0%2C1%2C2%2C3)에 해당하는 문제풀이를 진행하기 위한 코딩 테스트 스터디 Repository 입니다.
 
 ---
 ## :calendar:스터디 기간
@@ -7,7 +7,7 @@ Programmers 코딩 테스트 문제에서 level 0-3 단계에 해당하는 문�
 
 ---
 ## :seedling:스터디 목표
-- 1차 목표: Programmers level 0-3 단계까지 약 418 문제 풀어보기
+- 1차 목표: Programmers level 0-3 단계까지 약 487 문제 풀어보기
 - 최종 목표: 클린코드 작성 습관 가지기
 
 ---
