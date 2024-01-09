@@ -1,6 +1,6 @@
 /*
 출처: 프로그래머스
-문제: [PCCE 기출문제] 문자열 출력하기
+문제: [PCCE 기출문제] 문자열 반복해서 출력하기
 난이도: Level 0
 주소: https://school.programmers.co.kr/learn/courses/30/lessons/181952
 */
@@ -12,7 +12,7 @@ int main(void) {
     int a;
     scanf("%s %d", s1, &a);
     for(int i = 0; i < a; i++){
-        printf("%s");
+        printf("%s", s1);
     }
     return 0;
 }
