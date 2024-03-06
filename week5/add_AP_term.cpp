@@ -2,7 +2,7 @@
 출처: 프로그래머스
 문제: 등차수열의 특정한 항만 더하기
 난이도: Level 0
-시간:
+시간: 10분
 주소: https://school.programmers.co.kr/learn/courses/30/lessons/181931
 */
 #include <string>
