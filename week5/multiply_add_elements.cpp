@@ -21,3 +21,14 @@ int solution(vector<int> num_list) {
     if (mul < sum) return 1;
     else return 0;
 }
+
+// update code
+#include <numeric>
+
+int solution(vector<int> num_list) {
+    int sum = accumulate(num_list.begin(), num_list.end(), 0);
+    int mul = accumulate(num_list.begin(), num_list.end(), 1, multiplies<int>());
+    sum *= sum;
+
+    return sum > mul? 1:0;
+}
