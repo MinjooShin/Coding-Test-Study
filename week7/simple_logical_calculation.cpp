@@ -2,7 +2,7 @@
 출처: 프로그래머스
 문제: 간단한 논리 연산
 난이도: Level0
-시간: 분
+시간: 2분
 주소: https://school.programmers.co.kr/learn/courses/30/lessons/181917
 */
 #include <string>
