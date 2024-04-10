@@ -2,7 +2,7 @@
 출처: 프로그래머스
 문제: 문자열 뒤집기
 난이도: Level0
-시간: 분
+시간: 15분
 주소: https://school.programmers.co.kr/learn/courses/30/lessons/181905
 */
 
