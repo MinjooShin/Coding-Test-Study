@@ -22,3 +22,13 @@ vector<int> solution(long long n) {
     } 
     return answer;
 }
+
+vector<int> solution(long long n) {
+    string s = to_string(n);
+    vector<int> answer(s.length());
+    
+    for (int i=0; i<s.length(); i++) {
+        answer[i] = s[s.length()-1-i] - '0';
+    }
+    return answer;
+}
