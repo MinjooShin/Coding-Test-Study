@@ -28,3 +28,4 @@ Programmers 코딩 테스트 문제에서 [level 0-3 단계](https://school.prog
 | 7주차 |   6   |
 | 8주차 |   5   |
 | 9주차 |   11  |
+| 10주차|   8   |
