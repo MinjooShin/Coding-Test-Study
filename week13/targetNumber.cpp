@@ -3,7 +3,7 @@
 알고리즘: 깊이/너비 우선 탐색(DFS/BFS)
 문제: 타켓넘버
 난이도: Level2
-시간: 5분
+시간: 1시간
 주소: https://school.programmers.co.kr/learn/courses/30/lessons/43165
 */
 
