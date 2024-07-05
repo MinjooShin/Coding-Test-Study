@@ -30,3 +30,15 @@ int solution(int n) {
     } 
     return comp;
 }
+
+// update code
+#include <bitset>
+
+using namespace std;
+
+int solution(int n) {      
+    int n_cnt = bitset<10>(n).count();
+    
+    while (bitset<10>(++n).count() != n_cnt);
+    return n;
+}
