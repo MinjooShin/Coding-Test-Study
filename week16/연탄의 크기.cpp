@@ -25,16 +25,17 @@ int main(int argc, char** argv)
     //cout << radiuss << endl;
     
     istringstream iss(radiuss);
-    while (iss >> n) v.push_back(n);
-    
-    vector<int> cnts(homes, 0);
+    while (iss >> n) v.push_back(n); 
+
+    vector<int> primes = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97};
+    vector<int> primes_cnts(primes.size(), 0);
     for (int i=0; i<homes; i++) {
-        for (int j=0; j<homes; j++) {
-            if (v[j] % v[i] == 0) cnts[i]++;
+        for (int j=0; j<primes.size(); j++) {
+            if (v[i] % primes[j] == 0) primes_cnts[j]++;
         }
     }
-    int max = *std::max_element(cnts.begin(), cnts.end()); 
-    cout << max << endl;
+    int max = *std::max_element(primes_cnts.begin(), primes_cnts.end()); 
+    cout << max;
    
     return 0;
 }
