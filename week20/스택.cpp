@@ -1,3 +1,10 @@
+/*
+출처: 백준
+문제: 스택
+난이도: 알고리즘 기초1
+시간: 30분
+주소: https://www.acmicpc.net/problem/10828
+*/
 #include<iostream>
 #include<stack>
 #include<sstream>
